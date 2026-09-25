@@ -32,12 +32,22 @@
 
 ## 설치
 
+**방법 ① — Claude Code에 주소만 주면 끝 (가장 쉬움)**
+
+Claude Code 대화창에:
+
+```
+> https://github.com/seyounge/factcheck-pipeline 이거 스킬로 설치해줘
+```
+
+**방법 ② — 터미널에서 직접**
+
 ```bash
 git clone https://github.com/seyounge/factcheck-pipeline.git \
   ~/.claude/skills/factcheck-pipeline
 ```
 
-새 Claude Code 세션에서 자동 인식됩니다.
+둘 다 새 Claude Code 세션에서 자동 인식됩니다. 확인: `> factcheck-pipeline 스킬 있어?`
 
 ### 전제 조건
 
